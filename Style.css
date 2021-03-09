@@ -30,6 +30,10 @@ html, body {
     text-decoration: none;
 }
 
+.astrologo {
+padding-top: 5rem;
+}
+
 .links {
     color: #242424;
     font-size: 1.5rem;
@@ -120,6 +124,11 @@ html, body {
   to {font-size: 3rem; color: black;}
 }
 
+@keyframes size3 {
+  from {font-size: 1rem; color: white;}
+  to {font-size: 3rem; color: black;}
+}
+
 .anim {
   width: 100px;
   height: 100px;
@@ -143,6 +152,23 @@ html, body {
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-delay: 2s;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 
+ text-align: center;
+animation-fill-mode: forwards;
+}
+
+.anim3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: size3;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 4s;
     color: white;
     font-size: 3rem;
     font-weight: 700;
