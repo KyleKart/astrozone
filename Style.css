@@ -1,5 +1,5 @@
 html {
-    background: #313131;
+    background: #FFFFFF;
     font-family: Inter,sans-serif;
 }
 
@@ -55,20 +55,20 @@ html, body {
     align-content: center;
     margin: -250px;
     font-size: 5rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .homeTL {
     font-size: 3.5rem;
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .homePL {
     padding-top: 0.5rem;
     font-size: 2rem;
-    color: white;
+    color: black;
     text-align: left;
     margin-right: 50%;
 }
