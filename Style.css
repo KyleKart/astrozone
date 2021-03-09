@@ -110,16 +110,21 @@ html, body {
 }
 
 /* The animation code */
-@keyframes example {
-  from {font-size: 1rem;}
-  to {font-size: 3rem;}
+@keyframes size1 {
+  from {font-size: 1rem; color: white;}
+  to {font-size: 3rem; color: black;}
+}
+
+@keyframes size2 {
+  from {font-size: 1rem; color: white;}
+  to {font-size: 3rem; color: black;}
 }
 
 .anim {
   width: 100px;
   height: 100px;
   position: relative;
-  animation-name: example;
+  animation-name: size1;
   animation-duration: 4s;
   animation-iteration-count: 1;
     color: black;
@@ -128,6 +133,23 @@ html, body {
     text-decoration: none;
     padding: 
  text-align: center;
+}
+
+.anim2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: size2;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 
+ text-align: center;
+animation-fill-mode: forwards;
 }
 
 .Slogan {
