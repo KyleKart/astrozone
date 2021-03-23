@@ -1,11 +1,18 @@
 html {
     background: #dc3c4d;
+      background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
     font-family: Inter,sans-serif;
 }
 
 html, body { 
   width:100%;
     margin: 0px;
+}
+
+.diagonal-split-background{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
 }
 
 #header {
