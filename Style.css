@@ -48,6 +48,20 @@ padding-top: 5rem;
     margin-right: 5px;
 }
 
+.disclaimer {
+    color: #242424;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+    float: right;
+    background-color: #dc3c4d;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
 .title {
     align-content: center;
     padding-top: 10rem;
